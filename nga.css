@@ -1,0 +1,47 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    height: 300px;
+    width: 600px;
+    background-color:rgb(8, 84, 8);
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+label{
+    color: red;
+}
+label p{
+    color: white;
+    font-size: 18px;
+}
+span{
+    color: white;
+}
+input{
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+h4{
+    color: white;
+}
+.btns{
+    display: flex;
+    gap: 50%;
+}
+button{
+    padding: 8px 20px;
+    background-color: white;
+    border-radius: 5px;
+
+}
