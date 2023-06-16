@@ -16,13 +16,16 @@ console.log(input)
 
     if(input == num){
         document.getElementById("result").innerHTML = "Congratulations!!! you have got the number in "+ count +" Tries"
+          document.getElementById("result").style.color = "white";
     }
     else if(input>num){
         document.getElementById("result").innerHTML = "Try with lesser number";
+          document.getElementById("result").style.color = "white";
         count++;
     }
     else{
         document.getElementById("result").innerHTML = "Try with grater number"
+          document.getElementById("result").style.color = "white";
         count++;
     
     }
